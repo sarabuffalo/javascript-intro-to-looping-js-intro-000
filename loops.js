@@ -23,10 +23,10 @@ return Math.random() >= 0.5
 }
 
 function doWhileLoop(array) {
-  do {
+  do{
     array.shift();
   } while(array.length > 0 && maybeTrue()) {
-
     return array
   }
+  
   
